@@ -1,0 +1,93 @@
+mysql> use webbasedjava;
+Database changed
+mysql> select * from students;
++------------+-----------------+--------------+
+| student_id | student_name    | student_city |
++------------+-----------------+--------------+
+|        101 | Chaitali Jadhav | Mumbai       |
+|        102 | Rita Talele     | Jalgaon      |
+|        103 | Purva           | Nagar        |
++------------+-----------------+--------------+
+3 rows in set (0.01 sec)
+
+mysql> select * from students;
++------------+-----------------+--------------+
+| student_id | student_name    | student_city |
++------------+-----------------+--------------+
+|        101 | Chaitali Jadhav | Mumbai       |
+|        102 | Rita Talele     | Jalgaon      |
+|        103 | Purva           | Nagar        |
+|        104 | Sakshi Jadhav   | Pune         |
++------------+-----------------+--------------+
+4 rows in set (0.00 sec)
+
+ysql> select * from students;
++------------+--------------------+--------------+
+| student_id | student_name       | student_city |
++------------+--------------------+--------------+
+|        101 | Chaitali Jadhav    | Mumbai       |
+|        102 | Rita Talele        | Jalgaon      |
+|        103 | Purva              | Nagar        |
+|        104 | Sakshi Anil Jadhav | Pune         |
+|        105 | Vishal Jadhav      | Pune         |
++------------+--------------------+--------------+
+5 rows in set (0.00 sec)
+
+mysql> select * from students;
++------------+--------------------+--------------+
+| student_id | student_name       | student_city |
++------------+--------------------+--------------+
+|        101 | Chaitali Jadhav    | Mumbai       |
+|        102 | Rita Talele        | Jalgaon      |
+|        103 | Purva              | Nagar        |
+|        104 | Sakshi Anil Jadhav | Kolhapur     |
+|        105 | Vishal Jadhav      | Pune         |
++------------+--------------------+--------------+
+5 rows in set (0.00 sec)
+
+mysql> select * from students;
++------------+--------------------+--------------+
+| student_id | student_name       | student_city |
++------------+--------------------+--------------+
+|        101 | Chaitali Jadhav    | Mumbai       |
+|        102 | Rita Talele        | Jalgaon      |
+|        103 | Purva              | Nagar        |
+|        104 | Sakshi Anil Jadhav | solaapur     |
+|        105 | Vishal Jadhav      | Pune         |
++------------+--------------------+--------------+
+5 rows in set (0.00 sec)
+
+mysql> select * from students;
++------------+-----------------+--------------+
+| student_id | student_name    | student_city |
++------------+-----------------+--------------+
+|        101 | Chaitali Jadhav | Mumbai       |
+|        102 | Rita Talele     | Jalgaon      |
+|        103 | Purva           | Nagar        |
+|        105 | Vishal Jadhav   | Pune         |
++------------+-----------------+--------------+
+4 rows in set (0.00 sec)
+
+mysql>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
