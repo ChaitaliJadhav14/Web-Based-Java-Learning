@@ -1,0 +1,5 @@
+C:\Program Files\Apache Software Foundation\Tomcat 10.1    = HOME PAGE OF TOMCAT
+lib>servlet-api >
+all jdk files in under Tomcat or sevlet?
+
+ to run on chrome(web_project) - http://localhost:9000/web_app/doGreet
